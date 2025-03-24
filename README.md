@@ -7,7 +7,7 @@ This repository contains materials for a workshop on using Claude to extract str
 Create a conda environment with all required packages:
 
 ```bash
-conda create -n anthropic_pdf_workshop python=3 pandas anthropic jupyter jupyterlab
+conda create -c conda-forge -n anthropic_pdf_workshop python=3 pandas anthropic jupyter jupyterlab
 ```
 
 Activate the environment:
